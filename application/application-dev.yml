@@ -2,18 +2,18 @@ spring:
   profiles:
     active: dev
   rabbitmq:
-    host: 47.96.173.142
+    host: 10.97.20.3
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 47.96.173.142
-    password: paascloud@redis
+    host: 10.97.20.3
+    password: 123456
     port: 6379
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: paascloud
+    username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
@@ -74,8 +74,8 @@ paascloud:
       expiredMinutes: 120
   mail:
     host: smtp.sina.com
-    username: 'your email address'
-    password: 'your email password'
+    username: 'ml6610'
+    password: 'lm13778990'
     test-connection: false
     properties:
       mail:
@@ -90,7 +90,7 @@ paascloud:
       accessKeyId: 'your aliyun accessKeyId'
       accessKeySecret: 'your aliyun accessKeySecret'
     rocketMq:
-      namesrvAddr: 47.96.173.142:9876
+      namesrvAddr: 10.97.20.3:9876
     sms:
       signName: 快乐学习网
       regionId: cn-beijing
