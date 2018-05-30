@@ -75,7 +75,7 @@ paascloud:
   mail:
     host: smtp.sina.com
     username: 'ml6610'
-    password: 'lm13778990'
+    password: '13778990'
     test-connection: false
     properties:
       mail:
