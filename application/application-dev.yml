@@ -2,12 +2,12 @@ spring:
   profiles:
     active: dev
   rabbitmq:
-    host: 192.168.0.104
+    host: localhost
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 192.168.0.104
+    host: localhost
     password: 123456
     port: 6379
     timeout: 0
